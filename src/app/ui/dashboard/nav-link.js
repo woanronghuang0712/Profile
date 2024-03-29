@@ -7,7 +7,7 @@ import clsx from 'clsx'
 
 const link = [
 	{name:'Home',href:'/dashboard',icon:HomeIcon},
-	{name:'Experience',href:'/dashboard/personal_history',icon:IdentificationIcon},
+	{name:'Experience',href:'/personal_history',icon:IdentificationIcon},
 
 	];
 

@@ -1,6 +1,6 @@
 import Link from 'next/Link';
 import {clsx} from 'clsx';
-import {caveat} from '@/fonts';
+import {caveat} from '../../fonts';
 
 const events = [
 	{subtitle:"To infinity and beyond!" ,date:"Sep, 2023" ,title:"Taiwan Space Agency (TASA), Taiwan" ,content:"Managed satellite division operations and collaborated on engineering aspects at Taiwan NASA, integrating engineering principles into satellite orbit planning for optimal mission outcomes."	},

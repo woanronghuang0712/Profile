@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import astrocat from '@/ui/figures/astrocat.jpg';
+import astrocat from '../ui/figures/astrocat.jpg';
 import PetsIcon from '@mui/icons-material/Pets';
-import {caveat} from '@/fonts';
+import {caveat} from '../fonts';
 //history
 //skills
 //projects
