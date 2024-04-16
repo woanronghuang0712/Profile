@@ -2,8 +2,13 @@ import { Inter } from "next/font/google";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import "./globals.css";
 import SideNav from './ui/dashboard/sidenav';
-
 const inter = Inter({ subsets: ["latin"] });
+
+
+import 'jquery/dist/jquery.min.js';
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 export const metadata = {
   title: "Create Next App",
@@ -15,9 +20,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <AppRouterCacheProvider options={{ key: 'css' }}>
-      <div className = "flex-grow p-3 md:overflow-y-auto md:p12 bg-emerald-400">
+      <div className = "flex-grow p-3 md:overflow-y-auto md:p12 bg-white">
         <SideNav/>
-        <div className="m-3 mx-10 bg-yellow-300">
+        <div className="m-3 mx-10 bg-gray-100">
         {children}
         </div>
       </div>
